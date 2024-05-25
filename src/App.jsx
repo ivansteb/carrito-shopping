@@ -1,5 +1,4 @@
 import { products as initialProducts } from './mocks/products';
-import { useState } from 'react';
 import { Products } from './components/Products';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
@@ -7,16 +6,15 @@ import { useFilters } from './hooks/useFilters';
 
 
 function App () {
-  const [products] = useState(initialProducts)
-  const { filters, filterProducts, setFilters } = useFilters()
+  const { filterProducts } = useFilters()
 
-  const filteredProducts = filterProducts(products)
+  const filteredProducts = filterProducts(initialProducts)
 
   return (
     <>
-      <Header changeFilters={setFilters}/>
+      <Header />
       <Products products={filteredProducts}/>
-      <Footer filters={filters}/>
+      <Footer />
     </>   
   );
 }

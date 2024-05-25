@@ -8,7 +8,7 @@
   .products ul {
     display: grid;
     grid-template-columns: repeat(
-      auto-fit,
+      3,
       minmax(
         150px,
         1fr
@@ -38,7 +38,7 @@
   }
   
   .products img {
-    border-radius: 4px;
+    border-radius: 6px;
     width: 100%;
     aspect-ratio: 16/9;
     display: block;
