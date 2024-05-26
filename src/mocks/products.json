@@ -2,12 +2,10 @@
     "products": [
       {
         "id": 98,
-        "title": "Rolex Submariner Watch",
+        "title": "Rolex Submariner",
         "price": 13999.99,
         "quantity": 1,
         "total": 13999.99,
-        "discountPercentage": 16.35,
-        "discountedTotal": 11710.99,
         "category": "electronic",
         "thumbnail": "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Submariner%20Watch/thumbnail.png"
       },
@@ -17,30 +15,24 @@
         "price": 249.99,
         "quantity": 5,
         "total": 1249.95,
-        "discountPercentage": 16.54,
-        "discountedTotal": 1043.21,
         "category": "electronic",
         "thumbnail": "https://cdn.dummyjson.com/products/images/smartphones/Oppo%20A57/thumbnail.png"
       },
       {
         "id": 55,
-        "title": "Egg Slicer",
+        "title": "Rayador de huevo",
         "price": 6.99,
         "quantity": 2,
         "total": 13.98,
-        "discountPercentage": 16.04,
-        "discountedTotal": 11.74,
         "category": "kitchen",
         "thumbnail": "https://cdn.dummyjson.com/products/images/kitchen-accessories/Egg%20Slicer/thumbnail.png"
       },
       {
         "id": 62,
-        "title": "Ice Cube Tray",
+        "title": "Cubetera",
         "price": 5.99,
         "quantity": 2,
         "total": 11.98,
-        "discountPercentage": 8.25,
-        "discountedTotal": 10.99,
         "category": "kitchen",
         "thumbnail": "https://cdn.dummyjson.com/products/images/kitchen-accessories/Ice%20Cube%20Tray/thumbnail.png"
       },
@@ -50,15 +42,26 @@
         "price": 499.99,
         "quantity": 3,
         "total": 1499.97,
-        "discountPercentage": 8.84,
-        "discountedTotal": 1367.37,
         "category": "electronic",
         "thumbnail": "https://cdn.dummyjson.com/products/images/smartphones/Samsung%20Galaxy%20S8/thumbnail.png"
+      },
+      {
+        "id": 37,
+        "title": "Heladera Drean",
+        "price": 2500.99,
+        "quantity": 1,
+        "total": 2500.99,
+        "category": "kitchen",
+        "thumbnail": "https://drean.com.ar/medias/1200Wx1200H-C-Heladera-NoFrost-Drean-HDR380N12M-3.jpg?context=bWFzdGVyfGltYWdlc3wxODUxMDB8aW1hZ2UvanBlZ3xhRGM0TDJnME5TOHhNVEV3TmpJeE1UVXlPRGN6TkM4eE1qQXdWM2d4TWpBd1NGOURMVWhsYkdGa1pYSmhMVTV2Um5KdmMzUXRSSEpsWVc0dFNFUlNNemd3VGpFeVRTMHpMbXB3Wnd8M2QyOWJiMTMzMTA3NGFkMmE2N2ZmYjRmZDIwY2E4NDdiZTNiZDZkYTAwNzRiN2FhOGVjZmU1MWFhN2MyNWRlNQ"
+      },
+      {
+        "id": 42,
+        "title": "Microondas Philco",
+        "price": 157.99,
+        "quantity": 1,
+        "total": 157.99,
+        "category": "kitchen",
+        "thumbnail": "https://philco.com.ar/media/catalog/product/cache/c8f6a96bef9e9f64cd4973587df2520f/m/p/mpg8428npi_iafbsm0000.jpg"
       }
-    ],
-    "total": 16775.87,
-    "discountedTotal": 14144.3,
-    "userId": 108,
-    "totalProducts": 5,
-    "totalQuantity": 13
+    ]
   }
