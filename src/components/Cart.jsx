@@ -21,8 +21,8 @@ function CartItem ({ thumbnail, price, title, quantity, addToCart }) {
                 <button onClick={addToCart}>+</button>
             </footer>
         </li>
-    )
-}
+    );
+};
 
 export function Cart () {
     const cartCheckboxId = useId();

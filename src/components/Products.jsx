@@ -13,7 +13,7 @@ export function Products ({ products }) {
         <main className='products'>
             <ul>
                 {products.map(product => {
-                    const isProudctInCart = checkProductInCart(product)
+                    const isProductInCart = checkProductInCart(product)
 
                     return (
                     <li key={product.id}>
@@ -26,15 +26,15 @@ export function Products ({ products }) {
                         </div>
                         <div>
                             <button 
-                                style={{ backgroundColor: isProudctInCart ? 'red' : 'rgba(10,128,206)' }} 
+                                style={{ backgroundColor: isProductInCart ? 'red' : 'rgba(10,128,206)' }} 
                                 onClick={() => {
-                                    isProudctInCart 
+                                    isProductInCart 
                                         ? removeFromCart(product) 
                                         : addToCart(product)
                                 }}
                                 >
                                     {
-                                        isProudctInCart
+                                        isProductInCart
                                             ? <RemoveFromCartIcon />
                                             : <AddToCartIcon />
                                     }
@@ -45,5 +45,5 @@ export function Products ({ products }) {
                 })}
             </ul>
         </main>
-    )
-}
+    );
+};
