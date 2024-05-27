@@ -18,6 +18,6 @@ export function FiltersProvider ({ children }) {
         >
             {children}
         </FiltersContext.Provider>
-    )
-}
+    );
+};
 

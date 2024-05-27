@@ -1,7 +1,6 @@
 import { createContext, useReducer } from "react";
 import { cartReducer, cartInitialState } from "../reducers/cart";
 
-// 1. Creación de contexto
 export const CartContext = createContext();
 
 function useCartReducer () {
@@ -23,9 +22,9 @@ function useCartReducer () {
     return { state, addToCart, removeFromCart, clearCart };
 }
 
-// 2. Creación de Provider
+// dependencia de uso de React Context es mínima
 export function CartProvider ({ children }) {
-    const { state, addToCart, removeFromCart, clearCart } = useCartReducer()
+    const { state, addToCart, removeFromCart, clearCart } = useCartReducer();
 
     return (
         <CartContext.Provider value={{
